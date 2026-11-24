@@ -32,7 +32,7 @@ button { font: inherit; color: inherit; }
   background: var(--fg); color: var(--bg);
   font-size: var(--step--1);
 }
-.preview-bar .wrap { display: flex; gap: var(--s-3); align-items: center; justify-content: center; padding-block: 0.45rem; text-align: center; }
+.preview-bar .wrap { display: flex; gap: var(--s-3); align-items: center; justify-content: center; padding-block: 0.7rem; text-align: center; line-height: 1.45; }
 .preview-bar strong { color: var(--wheat); font-weight: 600; }
 
 .site-header {
@@ -390,9 +390,9 @@ td.num, th.num { text-align: end; white-space: nowrap; }
 .ccp-card dd { margin: 0.15rem 0 0; color: var(--fg-2); font-size: 0.95rem; }
 @media (max-width: 36rem) { .ccp-card { grid-template-columns: 1fr; gap: var(--s-2); } }
 
-.callout { border-inline-start: 3px solid var(--wheat); background: var(--wheat-wash); padding: var(--s-4) var(--s-5); border-radius: 0 var(--radius) var(--radius) 0; color: var(--fg); max-width: 72ch; }
-[dir="rtl"] .callout { border-radius: var(--radius) 0 0 var(--radius); }
-.callout strong { display: block; margin-bottom: 0.2rem; }
+.callout { border: 1px solid color-mix(in srgb, var(--wheat) 55%, var(--line)); background: var(--wheat-wash); padding: var(--s-4) var(--s-5); border-radius: var(--radius-l); color: var(--fg); max-width: 72ch; }
+.callout strong { display: block; margin-bottom: var(--s-2); font-size: var(--step--1); font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--fg-2); }
+[lang="ar"] .callout strong { letter-spacing: 0; text-transform: none; }
 
 /* ------------------------------------------------------------------ SOPs */
 .sop { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-l); padding: var(--s-5); display: grid; gap: var(--s-4); align-content: start; }
@@ -452,3 +452,4 @@ main { min-height: 100vh; }
 .brand__mark--static { display: block; border-radius: 50%; background: var(--accent); }
 .preview-bar { background: #2a2118; color: #f4eee2; }
 .preview-bar strong { color: #e8c56a; }
+.preview-bar strong { white-space: nowrap; flex: none; }

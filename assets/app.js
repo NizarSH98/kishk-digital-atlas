@@ -1,8 +1,8 @@
 // Kishk Digital Atlas — static, hash-routed, bilingual. No build step.
-import { UI } from './i18n.js?v=3';
-import { icon, brandMark, regionArt } from './icons.js?v=3';
+import { UI } from './i18n.js?v=4';
+import { icon, brandMark, regionArt } from './icons.js?v=4';
 
-const VERSION = '3';
+const VERSION = '4';
 
 const SERIES = { tamime1999: 1, salameh2016: 2, abdelrazik2016: 3 };
 const state = { lang: 'en', data: null };
