@@ -4,7 +4,7 @@ A searchable, bilingual (English/Arabic) record of traditional kishk production 
 Chouf and West Bekaa: ingredients, ratios, fermentation, drying, milling, packaging,
 storage and lab results. Each record is linked to the published research it comes from.
 
-**Live preview:** https://nizarsh98.github.io/kishk-digital-atlas/
+**Live site:** https://nizarsh98.github.io/kishk-digital-atlas/
 
 This repository only holds the generated static site (plain HTML/CSS/JS, no build step).
 It is published from a private source project, so changes made here will be overwritten.

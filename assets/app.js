@@ -1,8 +1,8 @@
 // Kishk Digital Atlas — static, hash-routed, bilingual. No build step.
-import { UI } from './i18n.js?v=4';
-import { icon, brandMark, regionArt } from './icons.js?v=4';
+import { UI } from './i18n.js?v=7';
+import { icon, brandMark, regionArt } from './icons.js?v=7';
 
-const VERSION = '4';
+const VERSION = '7';
 
 const SERIES = { tamime1999: 1, salameh2016: 2, abdelrazik2016: 3 };
 const state = { lang: 'en', data: null };
@@ -158,12 +158,12 @@ function obsTable(obs) {
 function viewHome() {
   const d = D();
   const interviews = 103; // 63 West Bekaa + 40 Chouf (Chedid et al. 2018, p. 18)
-  const strip = d.stages.map((s, i) => `<li><a href="${href(`stage/${s.id}`)}">
+  const strip = d.stages.map((s, i) => `<li><button class="strip__btn" type="button" data-peek="${s.id}" aria-expanded="false" aria-controls="stage-peek">
       <span class="strip__no">${String(i + 1).padStart(2, '0')}</span>
       ${icon(s.id, 'strip__icon')}
       <span class="strip__name">${esc(L(s.name))}</span>
       <span class="strip__count">${esc(t().practicesCount(practicesIn(s.id).length))}</span>
-    </a></li>`).join('');
+    </button></li>`).join('');
   const duo = focusRegions().map((r) => `<a class="region-card" href="${href(`region/${r.id}`)}">
       ${regionArt[r.id] || ''}
       <span class="eyebrow">${esc(L(r.surveyed))}</span>
@@ -198,7 +198,7 @@ function viewHome() {
     </section>
     <section class="section">
       <div class="section__head"><h2>${esc(t().processTitle)}</h2><p>${esc(t().processLead)}</p></div>
-      <ol class="strip">${strip}</ol>
+      <ol class="strip strip--peek">${strip}</ol>
       <div class="timeline">${t().timeline}</div>
     </section>
     <section class="section">
@@ -482,6 +482,70 @@ function viewNotFound() {
   return `<div class="wrap view"><header class="page-head"><h1>${esc(t().notFound)}</h1><p class="lead"><a href="#/">${esc(t().backHome)}</a></p></header></div>`;
 }
 
+// ------------------------------------------------------------------ stage preview (home)
+function peekHtml(id) {
+  const d = D();
+  const s = stage(id);
+  const i = d.stages.indexOf(s);
+  const list = practicesIn(id);
+  const top = list.slice(0, 3);
+  const regionsOf = (p) => p.regions.map((r) => L(region(r).name)).join(' · ');
+  const figure = (f) => (f ? ` · <b>${fmt(f.value)}${f.unit === '%' ? '%' : ` ${esc(unit(f.unit))}`}</b> ${esc(L(f.label))}` : '');
+  return `<div class="peek__head">
+      <div class="peek__title">${icon(id, 'peek__icon')}<div><span class="strip__no">${esc(t().stageOf(i + 1, d.stages.length))}</span><h3 id="peek-title">${esc(L(s.name))}</h3></div></div>
+      <button class="peek__close" type="button" data-peek-close aria-label="${esc(t().peekClose)}">${icon('close')}</button>
+    </div>
+    <p class="peek__summary">${esc(L(s.summary))}</p>
+    <ul class="peek__list">${top.map((p) => `<li><a href="${href(`stage/${id}`)}#p-${p.id}">
+        <span class="peek__item">${esc(L(p.title))}</span>
+        <span class="peek__meta">${esc(regionsOf(p))}${figure(p.figures?.[0])}</span></a></li>`).join('')}</ul>
+    <a class="btn btn--quiet peek__more" href="${href(`stage/${id}`)}">${esc(list.length > top.length ? t().peekMore(list.length) : t().peekOpen)}${icon('arrow', 'flip')}</a>`;
+}
+
+// The preview is a full-width list row inserted right after the grid row that holds
+// the tapped stage, so it opens directly under it at every breakpoint.
+function removePeek() {
+  document.querySelectorAll('.peek-slot').forEach((el) => el.remove());
+  document.querySelectorAll('[data-peek]').forEach((b) => b.setAttribute('aria-expanded', 'false'));
+}
+function togglePeek(btn) {
+  const wasOpen = btn.getAttribute('aria-expanded') === 'true';
+  removePeek();
+  if (wasOpen) return;
+  const li = btn.closest('li');
+  const strip = li.parentElement;
+  const items = [...strip.children];
+  const rowEnd = items.filter((el) => el.offsetTop === li.offsetTop).pop();
+  const slot = document.createElement('li');
+  slot.className = 'peek-slot';
+  slot.innerHTML = `<div class="peek is-in" id="stage-peek" role="region" aria-labelledby="peek-title">${peekHtml(btn.dataset.peek)}</div>`;
+  slot.dataset.for = btn.dataset.peek;
+  rowEnd.after(slot);
+  btn.setAttribute('aria-expanded', 'true');
+  const s = strip.getBoundingClientRect();
+  const b = btn.getBoundingClientRect();
+  slot.firstElementChild.style.setProperty('--caret', `${b.left + b.width / 2 - s.left}px`);
+  if (slot.getBoundingClientRect().bottom > innerHeight) {
+    slot.scrollIntoView({ block: 'nearest', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+  }
+}
+function closePeek() {
+  const slot = $('.peek-slot');
+  if (!slot) return;
+  const btn = document.querySelector(`[data-peek="${slot.dataset.for}"]`);
+  removePeek();
+  btn?.focus();
+}
+
+// ------------------------------------------------------------------ theme (light by default)
+function readTheme() { try { return localStorage.getItem('atlas-theme') === 'dark' ? 'dark' : 'light'; } catch (e) { return 'light'; } }
+function applyTheme(theme) {
+  if (theme === 'dark') document.documentElement.dataset.theme = 'dark';
+  else delete document.documentElement.dataset.theme;
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.content = theme === 'dark' ? '#17130f' : '#f4eee2';
+}
+
 // ------------------------------------------------------------------ chrome
 const NAV = [['explore', 'explore'], ['process', 'process'], ['regions', 'regions'], ['quality', 'quality'], ['sops', 'sops'], ['sources', 'sources'], ['about', 'about']];
 const SECTION_OF = { stage: 'process', region: 'regions', qc: 'quality' };
@@ -495,6 +559,11 @@ function renderChrome(section) {
   $('#brand').innerHTML = `${brandMark}<span class="brand__text"><span class="brand__en">${esc(u.siteName)}</span><span class="brand__ar" lang="${state.lang === 'ar' ? 'en' : 'ar'}">${esc(u.siteNameAlt)}</span></span>`;
   $('#nav').innerHTML = NAV.map(([key, path]) => `<a href="#/${path}" ${section === key ? 'aria-current="page"' : ''}>${esc(u.nav[key])}</a>`).join('');
   $('#nav').setAttribute('aria-label', state.lang === 'ar' ? 'القائمة الرئيسية' : 'Main');
+  const dark = document.documentElement.dataset.theme === 'dark';
+  const tt = $('#theme-toggle');
+  tt.innerHTML = icon(dark ? 'sun' : 'moon');
+  tt.setAttribute('aria-label', dark ? u.themeLight : u.themeDark);
+  tt.setAttribute('title', dark ? u.themeLight : u.themeDark);
   const lt = $('#lang-toggle');
   lt.innerHTML = `<span lang="${state.lang === 'ar' ? 'en' : 'ar'}">${esc(u.langSwitch)}</span>`;
   lt.setAttribute('aria-label', u.langSwitchLabel);
@@ -532,6 +601,18 @@ function route() {
 function bind() {
   window.addEventListener('hashchange', route);
   $('#lang-toggle').addEventListener('click', () => { state.lang = state.lang === 'ar' ? 'en' : 'ar'; saveLang(state.lang); route(); });
+  $('#theme-toggle').addEventListener('click', () => {
+    const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    try { localStorage.setItem('atlas-theme', next); } catch (e) { /* storage blocked */ }
+    applyTheme(next);
+    const head = parseHash().parts[0] || '';
+    renderChrome(SECTION_OF[head] || head);
+  });
+  document.addEventListener('click', (e) => {
+    const peekBtn = e.target.closest('[data-peek]');
+    if (peekBtn) { togglePeek(peekBtn); return; }
+    if (e.target.closest('[data-peek-close]')) closePeek();
+  });
   $('#menu-btn').addEventListener('click', () => {
     const open = $('#nav').classList.toggle('is-open');
     $('#menu-btn').setAttribute('aria-expanded', String(open));
@@ -569,11 +650,12 @@ function bind() {
   document.addEventListener('pointermove', (e) => { const el = e.target.closest('[data-tip]'); if (el) show(el, e.clientX, e.clientY); else hide(); });
   document.addEventListener('focusin', (e) => { const el = e.target.closest('[data-tip]'); if (el) { const r = el.getBoundingClientRect(); show(el, r.left + r.width / 2, r.top); } });
   document.addEventListener('focusout', hide);
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hide(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { hide(); closePeek(); } });
 }
 
 async function boot() {
   state.lang = readLang();
+  applyTheme(readTheme());
   bind();
   renderChrome(parseHash().parts[0] || '');
   try {
