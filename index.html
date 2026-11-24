@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kishk Digital Atlas</title>
+  <meta name="description" content="A searchable, bilingual record of traditional kishk production in the Chouf and West Bekaa: ingredients, fermentation, drying, milling, packaging, storage and lab results, each linked to published research.">
+  <meta name="theme-color" content="#f4eee2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#17130f" media="(prefers-color-scheme: dark)">
+  <meta property="og:title" content="Kishk Digital Atlas — preview">
+  <meta property="og:description" content="How kishk is made in the Chouf and West Bekaa, region by region, with every practice linked to its source.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Display face: optional, so a late font never reflows the hero (CLS). Body faces: swap. -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..640;1,9..144,400..560&display=optional">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Noto+Naskh+Arabic:wght@500;600&display=swap">
+  <link rel="stylesheet" href="assets/tokens.css?v=3">
+  <link rel="stylesheet" href="assets/app.css?v=3">
+  <link rel="preload" href="data/atlas.json?v=3" as="fetch" type="application/json" crossorigin>
+  <script type="module" src="assets/app.js?v=3"></script>
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+  <!-- Static English chrome so first paint already has its final height (no layout shift). -->
+  <div class="preview-bar" role="note"><div class="wrap" id="preview-bar"><strong>Preview</strong> · Built from published research only. Field data, recipes and media are still being collected.</div></div>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#/" id="brand"><span class="brand__mark brand__mark--static" aria-hidden="true"></span><span class="brand__text"><span class="brand__en">Kishk Digital Atlas</span><span class="brand__ar" lang="ar">أطلس الكشك الرقمي</span></span></a>
+      <nav class="nav" id="nav" aria-label="Main"></nav>
+      <button class="lang-toggle" id="lang-toggle" type="button"><span lang="ar">عربي</span></button>
+      <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="nav"></button>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="wrap"><p class="lead" style="padding-block:4rem">Loading the Atlas…</p></div>
+  </main>
+  <footer class="site-footer"><div class="wrap" id="footer"></div></footer>
+  <div class="tooltip" id="tooltip" role="tooltip" aria-hidden="true"></div>
+  <noscript><div class="wrap"><p>The Kishk Digital Atlas needs JavaScript to browse its records.</p></div></noscript>
+</body>
+</html>

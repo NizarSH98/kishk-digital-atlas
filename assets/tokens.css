@@ -1,0 +1,93 @@
+/* Kishk Digital Atlas — design tokens (field-notebook direction).
+   Colour is semantic; dark mode is selected separately, not an automatic flip. */
+/* Metric-matched fallbacks (measured: Fraunces = 0.90 x Georgia width, Plex = 1.01 x Arial)
+   so the web-font swap does not reflow text (CLS). */
+@font-face { font-family: "Fraunces Fallback"; src: local("Georgia"); size-adjust: 90%; }
+@font-face { font-family: "Plex Fallback"; src: local("Arial"); size-adjust: 101%; }
+
+:root {
+  color-scheme: light dark;
+
+  /* surfaces & ink */
+  --bg: #f4eee2;
+  --surface: #fbf7ef;
+  --surface-2: #ede3d1;
+  --fg: #2a2118;
+  --fg-2: #4a3d2f;
+  --muted: #6b5d4d;
+  --line: #dccfb7;
+  --line-strong: #c4b394;
+
+  /* accents */
+  --accent: #b4502a;      /* terracotta: marks, rules, focus */
+  --accent-ink: #9a4220;  /* terracotta for text (>= 4.5:1 on --bg) */
+  --accent-wash: #f1dccd;
+  --wheat: #c9a24a;
+  --wheat-wash: #efe2bf;
+
+  /* data series (validated: dataviz validate_palette.js, light on #fbf7ef) */
+  --series-1: #b4502a;  /* Tamime et al. 1999 */
+  --series-2: #0786a8;  /* Salameh et al. 2016 */
+  --series-3: #8a6a12;  /* Abd El-Razik et al. 2016 */
+
+  /* type */
+  --font-display: "Fraunces", "Fraunces Fallback", Georgia, serif;
+  --font-display-ar: "Noto Naskh Arabic", "Geeza Pro", serif;
+  --font-body: "IBM Plex Sans Arabic", "Plex Fallback", Arial, sans-serif;
+  --step--1: clamp(0.8rem, 0.78rem + 0.1vw, 0.86rem);
+  --step-0: clamp(1rem, 0.96rem + 0.18vw, 1.08rem);
+  --step-1: clamp(1.15rem, 1.08rem + 0.35vw, 1.32rem);
+  --step-2: clamp(1.4rem, 1.25rem + 0.7vw, 1.8rem);
+  --step-3: clamp(1.8rem, 1.5rem + 1.4vw, 2.7rem);
+  --step-4: clamp(2.3rem, 1.8rem + 2.6vw, 4.1rem);
+
+  /* space (4-based) */
+  --s-1: 0.25rem; --s-2: 0.5rem; --s-3: 0.75rem; --s-4: 1rem; --s-5: 1.5rem;
+  --s-6: 2rem; --s-7: 3rem; --s-8: 4rem; --s-9: 6rem;
+  --measure: 66ch;
+  --page: 76rem;
+  --gutter: clamp(1rem, 0.6rem + 2vw, 2.5rem);
+
+  /* shape */
+  --radius-s: 4px;
+  --radius: 8px;
+  --radius-l: 14px;
+  --shadow: 0 1px 0 rgba(60, 40, 20, 0.04), 0 8px 24px -12px rgba(60, 40, 20, 0.18);
+
+  /* motion */
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --t-fast: 140ms;
+  --t-base: 240ms;
+  --t-slow: 520ms;
+
+  --z-header: 20;
+  --z-tooltip: 40;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17130f;
+    --surface: #1e1a15;
+    --surface-2: #29231c;
+    --fg: #efe6d6;
+    --fg-2: #d8ccb8;
+    --muted: #b5a68f;
+    --line: #3a3128;
+    --line-strong: #54473a;
+    --accent: #e07a52;
+    --accent-ink: #ec926d;
+    --accent-wash: #3a2419;
+    --wheat: #d2ae4a;
+    --wheat-wash: #3a3019;
+    /* validated: dark on #1e1a15 */
+    --series-1: #d06a42;
+    --series-2: #2a9cc2;
+    --series-3: #b08c2a;
+    --shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 10px 28px -14px rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --t-fast: 0ms; --t-base: 0ms; --t-slow: 0ms; }
+}

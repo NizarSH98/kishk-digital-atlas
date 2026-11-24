@@ -1,0 +1,2758 @@
+{
+ "schema": 1,
+ "status": {
+  "en": "Preview built from published literature only. Records are transcribed and pending expert review.",
+  "ar": "نسخة تجريبية مبنية على الأدبيات المنشورة فقط. السجلات منقولة وبانتظار مراجعة الخبراء."
+ },
+ "sources": [
+  {
+   "id": "chedid2018",
+   "short": "Chedid et al. 2018",
+   "authors": "Chedid M., Tohmé Tawk S., Chalak A., Karam S., Hamadeh S. K.",
+   "year": 2018,
+   "title": "The Lebanese Kishk: A Traditional Dairy Product in a Changing Local Food System",
+   "venue": "Journal of Food Research 7(5), 16–23",
+   "doi": "10.5539/jfr.v7n5p16",
+   "license": "CC BY 4.0",
+   "corpus_match": "Kishk Cost",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "scope": {
+    "en": "Producer survey, summer 2014. 63 farmers and processors in the West Bekaa and 40 processors in the Chouf.",
+    "ar": "مسح ميداني للمنتجين في صيف 2014 شمل 63 مزارعاً ومصنّعاً في البقاع الغربي و40 مصنّعة في الشوف."
+   }
+  },
+  {
+   "id": "tamime1999",
+   "short": "Tamime et al. 1999",
+   "authors": "Tamime A. Y., Barclay M. N. I., Amarowicz R., McNulty D.",
+   "year": 1999,
+   "title": "Kishk — a dried fermented milk/cereal mixture. 1. Composition of gross components, carbohydrates, organic acids and fatty acids",
+   "venue": "Le Lait 79, 317–330",
+   "license": "Publisher copyright — figures cited, text paraphrased",
+   "corpus_match": "kishk lait_79_1999_3_27",
+   "regions": [
+    "bekaa"
+   ],
+   "scope": {
+    "en": "Laboratory analysis of 25 kishk samples bought from supermarkets, dairies, granaries and homes in the Bekaa Valley and nearby mountain villages.",
+    "ar": "تحليل مخبري لـ25 عيّنة كشك اشتُريت من متاجر ومعامل ألبان ومطاحن ومنازل في سهل البقاع والقرى الجبلية المجاورة."
+   }
+  },
+  {
+   "id": "salameh2016",
+   "short": "Salameh et al. 2016",
+   "authors": "Salameh C., Scher J., Petit J., Gaiani C., Hosri C., Banon S.",
+   "year": 2016,
+   "title": "Physico-chemical and rheological properties of Lebanese kishk powder, a dried fermented milk-cereal mixture",
+   "venue": "Powder Technology 292, 307–313",
+   "license": "Publisher copyright — figures cited, text paraphrased",
+   "corpus_match": "kishk salameh2016",
+   "regions": [
+    "lebanon"
+   ],
+   "scope": {
+    "en": "20 artisanal kishk powders from local markets in the Bekaa, Mount Lebanon, the North and the South. 10 made with cow milk, 5 with goat milk and 5 with a mix.",
+    "ar": "20 عيّنة كشك حرفي من أسواق محلية في البقاع وجبل لبنان والشمال والجنوب، منها 10 من حليب البقر و5 من حليب الماعز و5 من خليط الاثنين."
+   }
+  },
+  {
+   "id": "abdelrazik2016",
+   "short": "Abd El-Razik et al. 2016",
+   "authors": "Abd El-Razik M. M., Hassan M. F. Y., Gadallah M. G. E.",
+   "year": 2016,
+   "title": "Implementation of HACCP Plan for the Production of Egyptian Kishk (A Traditional Fermented Cereal-Milk Mixture)",
+   "venue": "Food and Nutrition Sciences 7, 1262–1275",
+   "doi": "10.4236/fns.2016.713116",
+   "license": "CC BY 4.0",
+   "corpus_match": "HACCP Kishk",
+   "regions": [
+    "reference"
+   ],
+   "scope": {
+    "en": "Small-scale HACCP plan for Egyptian kishk made under controlled conditions. It is a reference method, not Lebanese practice.",
+    "ar": "خطة HACCP لإنتاج الكشك المصري على نطاق صغير وفي ظروف مضبوطة. هي مرجع منهجي وليست ممارسة لبنانية."
+   }
+  }
+ ],
+ "regions": [
+  {
+   "id": "chouf",
+   "focus": true,
+   "name": {
+    "en": "Chouf",
+    "ar": "الشوف"
+   },
+   "setting": {
+    "en": "Mountain district of terraced land, now used mostly for fruit orchards.",
+    "ar": "قضاء جبلي ذو مدرّجات زراعية تُستخدم اليوم في الغالب للبساتين المثمرة."
+   },
+   "facts": [
+    {
+     "en": "Wheat is no longer grown here. Kishk makers buy bulgur or wheat from elsewhere.",
+     "ar": "لم تعد زراعة القمح قائمة، ويشتري صانعو الكشك البرغل أو القمح من خارج المنطقة.",
+     "cite": {
+      "source": "chedid2018",
+      "pages": "19"
+     }
+    },
+    {
+     "en": "52% of processors use milk from their own animals, and 62% make their own yogurt.",
+     "ar": "52% من المصنّعات يستخدمن حليباً من مواشيهن، و62% يحضّرن اللبن في المنزل.",
+     "cite": {
+      "source": "chedid2018",
+      "pages": "19"
+     }
+    },
+    {
+     "en": "Cow milk, or a goat–cow blend, is preferred.",
+     "ar": "يُفضَّل حليب البقر أو خليط من حليب الماعز والبقر.",
+     "cite": {
+      "source": "chedid2018",
+      "pages": "19"
+     }
+    }
+   ],
+   "surveyed": {
+    "en": "40 processors interviewed in 2014",
+    "ar": "مقابلة 40 مصنّعة عام 2014"
+   }
+  },
+  {
+   "id": "west_bekaa",
+   "focus": true,
+   "name": {
+    "en": "West Bekaa",
+    "ar": "البقاع الغربي"
+   },
+   "setting": {
+    "en": "Valley farmland where wheat is rotated with vegetables and legumes.",
+    "ar": "أراضٍ زراعية في السهل يُزرع فيها القمح بالتناوب مع الخضار والبقوليات."
+   },
+   "facts": [
+    {
+     "en": "Almost all processors use goat milk.",
+     "ar": "يستخدم جميع المصنّعين تقريباً حليب الماعز.",
+     "cite": {
+      "source": "chedid2018",
+      "pages": "19"
+     }
+    },
+    {
+     "en": "Most milk (82%) and yogurt (94%) is bought from neighbouring farmers.",
+     "ar": "يُشترى معظم الحليب (82%) واللبن (94%) من المزارعين المجاورين.",
+     "cite": {
+      "source": "chedid2018",
+      "pages": "19"
+     }
+    },
+    {
+     "en": "Only durum wheat is used for bulgur and kishk, though soft wheat is also grown.",
+     "ar": "يُستخدم القمح القاسي وحده للبرغل والكشك، مع أن القمح الطري يُزرع أيضاً.",
+     "cite": {
+      "source": "chedid2018",
+      "pages": "19"
+     }
+    }
+   ],
+   "surveyed": {
+    "en": "63 farmers and processors interviewed in 2014",
+    "ar": "مقابلة 63 مزارعاً ومصنّعاً عام 2014"
+   }
+  },
+  {
+   "id": "bekaa",
+   "focus": false,
+   "name": {
+    "en": "Bekaa (other areas)",
+    "ar": "البقاع (مناطق أخرى)"
+   },
+   "setting": {
+    "en": "Commercial samples from Mid, North and South Bekaa and nearby mountain villages.",
+    "ar": "عيّنات تجارية من البقاع الأوسط والشمالي والجنوبي والقرى الجبلية المجاورة."
+   },
+   "facts": [],
+   "surveyed": {
+    "en": "25 samples analysed in the late 1990s",
+    "ar": "تحليل 25 عيّنة في أواخر التسعينيات"
+   }
+  },
+  {
+   "id": "lebanon",
+   "focus": false,
+   "name": {
+    "en": "Lebanon (multi-region)",
+    "ar": "لبنان (مناطق متعدّدة)"
+   },
+   "setting": {
+    "en": "Studies that pool samples from several Lebanese regions.",
+    "ar": "دراسات تجمع عيّنات من مناطق لبنانية عدّة."
+   },
+   "facts": [],
+   "surveyed": {
+    "en": "20 market samples",
+    "ar": "20 عيّنة من الأسواق"
+   }
+  },
+  {
+   "id": "reference",
+   "focus": false,
+   "name": {
+    "en": "Reference method (Egypt)",
+    "ar": "منهج مرجعي (مصر)"
+   },
+   "setting": {
+    "en": "Method sources from outside Lebanon, used only for quality-control structure.",
+    "ar": "مصادر منهجية من خارج لبنان، تُستخدم فقط لبنية ضبط الجودة."
+   },
+   "facts": [],
+   "surveyed": {
+    "en": "Laboratory-scale production",
+    "ar": "إنتاج على نطاق مخبري"
+   }
+  }
+ ],
+ "stages": [
+  {
+   "id": "ingredients",
+   "name": {
+    "en": "Ingredients",
+    "ar": "المكوّنات"
+   },
+   "summary": {
+    "en": "Milk, yogurt or labneh, and bulgur (durum wheat). The type of milk and wheat shapes the taste and colour.",
+    "ar": "الحليب أو اللبن أو اللبنة، والبرغل من القمح القاسي. يحدّد نوع الحليب والقمح المذاق واللون."
+   }
+  },
+  {
+   "id": "ratios",
+   "name": {
+    "en": "Ratios",
+    "ar": "النِّسَب"
+   },
+   "summary": {
+    "en": "How much bulgur to how much yogurt, and how much salt. Literature gives ranges; household ratios are still to be recorded.",
+    "ar": "كمية البرغل مقابل اللبن ونسبة الملح. تقدّم الأدبيات نطاقات، أما نِسَب المنازل فلم تُوثَّق بعد."
+   }
+  },
+  {
+   "id": "fermentation",
+   "name": {
+    "en": "Fermentation",
+    "ar": "التخمير"
+   },
+   "summary": {
+    "en": "Bulgur soaks in yogurt and is rubbed daily, with more yogurt and salt added, until it becomes \"green\" kishk.",
+    "ar": "يُنقع البرغل في اللبن ويُفرك يومياً مع إضافة اللبن والملح تدريجياً حتى يصبح كشكاً أخضر."
+   }
+  },
+  {
+   "id": "drying",
+   "name": {
+    "en": "Drying",
+    "ar": "التجفيف"
+   },
+   "summary": {
+    "en": "Green kishk is spread on cloth on rooftops and dried in the summer sun, broken up by hand each morning.",
+    "ar": "يُفرد الكشك الأخضر على قماش فوق الأسطح ويجفّ تحت شمس الصيف، ويُفتّت باليد كل صباح."
+   }
+  },
+  {
+   "id": "milling",
+   "name": {
+    "en": "Milling",
+    "ar": "الطحن"
+   },
+   "summary": {
+    "en": "Fully dried kishk is ground at the mill into a fine powder.",
+    "ar": "يُطحن الكشك بعد جفافه التام في المطحنة حتى يصير مسحوقاً ناعماً."
+   }
+  },
+  {
+   "id": "packaging",
+   "name": {
+    "en": "Packaging",
+    "ar": "التعبئة"
+   },
+   "summary": {
+    "en": "Usually sold in plain plastic or cloth bags with no label.",
+    "ar": "يُباع عادةً في أكياس بلاستيكية أو قماشية بلا ملصق تعريفي."
+   }
+  },
+  {
+   "id": "storage",
+   "name": {
+    "en": "Storage",
+    "ar": "التخزين"
+   },
+   "summary": {
+    "en": "Made in summer as a winter provision. Low moisture and acidity keep it stable for a long time.",
+    "ar": "يُحضَّر صيفاً مؤونةً للشتاء، وتحفظه الرطوبة المنخفضة والحموضة مدةً طويلة."
+   }
+  },
+  {
+   "id": "community",
+   "name": {
+    "en": "People & markets",
+    "ar": "الناس والأسواق"
+   },
+   "summary": {
+    "en": "Who makes kishk, at what scale, and how it reaches buyers.",
+    "ar": "مَن يصنع الكشك، وبأيّ حجم، وكيف يصل إلى المشترين."
+   }
+  }
+ ],
+ "practices": [
+  {
+   "id": "milk-west-bekaa",
+   "stage": "ingredients",
+   "regions": [
+    "west_bekaa"
+   ],
+   "kind": "variation",
+   "title": {
+    "en": "Goat milk in the West Bekaa",
+    "ar": "حليب الماعز في البقاع الغربي"
+   },
+   "text": {
+    "en": "Almost every West Bekaa processor makes kishk with goat milk.",
+    "ar": "يصنع جميع مصنّعي الكشك في البقاع الغربي تقريباً الكشكَ بحليب الماعز."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "19"
+   }
+  },
+  {
+   "id": "milk-chouf",
+   "stage": "ingredients",
+   "regions": [
+    "chouf"
+   ],
+   "kind": "variation",
+   "title": {
+    "en": "Cow milk or blends in the Chouf",
+    "ar": "حليب البقر أو الخليط في الشوف"
+   },
+   "text": {
+    "en": "Chouf processors lean towards cow milk, or a blend of goat and cow milk.",
+    "ar": "تميل مصنّعات الشوف إلى حليب البقر أو إلى خليط من حليب الماعز والبقر."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "19"
+   }
+  },
+  {
+   "id": "milk-taste",
+   "stage": "ingredients",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "knowledge",
+   "title": {
+    "en": "What the milk does to the taste",
+    "ar": "أثر الحليب في المذاق"
+   },
+   "text": {
+    "en": "Goat milk gives kishk its typical sharp, acidic taste. Cow milk is used more for commercial kishk.",
+    "ar": "يمنح حليب الماعز الكشكَ مذاقه الحامض اللاذع المعروف، في حين يُستخدم حليب البقر أكثر في الكشك التجاري."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "16"
+   }
+  },
+  {
+   "id": "labneh-variant",
+   "stage": "ingredients",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "variation",
+   "title": {
+    "en": "Labneh kishk kept for the family",
+    "ar": "كشك اللبنة للعائلة"
+   },
+   "text": {
+    "en": "A few makers use labneh instead of milk and yogurt. They consider this kishk high quality and keep it for the family rather than selling it.",
+    "ar": "تستخدم قلّة من الصانعات اللبنة بدل الحليب واللبن، ويُعدّ هذا الكشك عالي الجودة فيُحفظ للعائلة ولا يُباع."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "19"
+   }
+  },
+  {
+   "id": "bulgur-colour",
+   "stage": "ingredients",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "variation",
+   "title": {
+    "en": "White bulgur for a lighter kishk",
+    "ar": "البرغل الأبيض لكشك أفتح لوناً"
+   },
+   "text": {
+    "en": "Most producers prefer white bulgur because buyers like a lighter kishk. Local or brown wheat gives a darker kishk, usually preferred for the family's own use.",
+    "ar": "يفضّل معظم المنتجين البرغل الأبيض لأن المشترين يحبّون الكشك الفاتح، بينما يعطي القمح البلدي أو الأسمر كشكاً أدكن تفضّله العائلة عادةً لاستهلاكها."
+   },
+   "figures": [
+    {
+     "label": {
+      "en": "White bulgur",
+      "ar": "برغل أبيض"
+     },
+     "value": 68,
+     "unit": "%"
+    },
+    {
+     "label": {
+      "en": "Local wheat",
+      "ar": "قمح بلدي"
+     },
+     "value": 23,
+     "unit": "%"
+    },
+    {
+     "label": {
+      "en": "Brown wheat",
+      "ar": "قمح أسمر"
+     },
+     "value": 9,
+     "unit": "%"
+    }
+   ],
+   "cite": {
+    "source": "chedid2018",
+    "pages": "19"
+   }
+  },
+  {
+   "id": "durum-only",
+   "stage": "ingredients",
+   "regions": [
+    "west_bekaa"
+   ],
+   "kind": "practice",
+   "title": {
+    "en": "Durum wheat only",
+    "ar": "القمح القاسي وحده"
+   },
+   "text": {
+    "en": "West Bekaa farmers grow both durum (kasi) and soft (tareh) wheat, but only durum is used for bulgur and kishk.",
+    "ar": "يزرع مزارعو البقاع الغربي القمح القاسي (كاسي) والطري (طريّ)، لكن القاسي وحده يُستخدم للبرغل والكشك."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "19"
+   }
+  },
+  {
+   "id": "wheat-names",
+   "stage": "ingredients",
+   "regions": [
+    "west_bekaa"
+   ],
+   "kind": "knowledge",
+   "title": {
+    "en": "Local names for wheat",
+    "ar": "أسماء القمح المحلية"
+   },
+   "text": {
+    "en": "Farmers call local wheat \"baladi\". Some use more specific names, such as \"Bekaii\" or \"asmar\" (brown), \"Salamouneh\" (for its long grain) and \"Hawraneh\" (after the Hawran plateau).",
+    "ar": "يسمّي المزارعون القمح المحلي «بلدي»، ويستخدم بعضهم أسماء أدقّ مثل «بقاعي» أو «أسمر» و«سلمونة» لطول حبّته و«حورانيّة» نسبةً إلى سهل حوران."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "19"
+   }
+  },
+  {
+   "id": "wheat-chouf",
+   "stage": "ingredients",
+   "regions": [
+    "chouf"
+   ],
+   "kind": "knowledge",
+   "title": {
+    "en": "Wheat has left the Chouf terraces",
+    "ar": "القمح غاب عن مدرّجات الشوف"
+   },
+   "text": {
+    "en": "Wheat was once a main crop on small Chouf terraces and is no longer grown. Land fragmentation, steep terraces better suited to orchards, and a lack of harvesting equipment ended it.",
+    "ar": "كان القمح محصولاً رئيسياً في مدرّجات الشوف الصغيرة ولم يعد يُزرع، بسبب تفتّت الملكيات وانحدار المدرّجات الأنسب للبساتين وغياب معدّات الحصاد."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "19"
+   }
+  },
+  {
+   "id": "sourcing-west-bekaa",
+   "stage": "ingredients",
+   "regions": [
+    "west_bekaa"
+   ],
+   "kind": "variation",
+   "title": {
+    "en": "Bought from neighbours",
+    "ar": "الشراء من الجيران"
+   },
+   "text": {
+    "en": "In the West Bekaa most milk and yogurt is bought from neighbouring farmers. Only a minority use milk from their own animals.",
+    "ar": "في البقاع الغربي يُشترى معظم الحليب واللبن من المزارعين المجاورين، ولا تستخدم إلا قلّة حليباً من مواشيها."
+   },
+   "figures": [
+    {
+     "label": {
+      "en": "Milk bought",
+      "ar": "حليب مشترى"
+     },
+     "value": 82,
+     "unit": "%"
+    },
+    {
+     "label": {
+      "en": "Milk from own farm",
+      "ar": "حليب من المزرعة"
+     },
+     "value": 18,
+     "unit": "%"
+    },
+    {
+     "label": {
+      "en": "Yogurt bought",
+      "ar": "لبن مشترى"
+     },
+     "value": 94,
+     "unit": "%"
+    },
+    {
+     "label": {
+      "en": "Yogurt made at home",
+      "ar": "لبن منزلي"
+     },
+     "value": 6,
+     "unit": "%"
+    }
+   ],
+   "cite": {
+    "source": "chedid2018",
+    "pages": "19"
+   }
+  },
+  {
+   "id": "sourcing-chouf",
+   "stage": "ingredients",
+   "regions": [
+    "chouf"
+   ],
+   "kind": "variation",
+   "title": {
+    "en": "Made at home",
+    "ar": "التحضير في المنزل"
+   },
+   "text": {
+    "en": "Chouf makers are more likely to produce their own milk and yogurt, so the supply chain stays closer to the farm.",
+    "ar": "تميل صانعات الشوف أكثر إلى إنتاج الحليب واللبن بأنفسهن، فتبقى سلسلة الإمداد أقرب إلى المزرعة."
+   },
+   "figures": [
+    {
+     "label": {
+      "en": "Milk bought",
+      "ar": "حليب مشترى"
+     },
+     "value": 48,
+     "unit": "%"
+    },
+    {
+     "label": {
+      "en": "Milk from own farm",
+      "ar": "حليب من المزرعة"
+     },
+     "value": 52,
+     "unit": "%"
+    },
+    {
+     "label": {
+      "en": "Yogurt bought",
+      "ar": "لبن مشترى"
+     },
+     "value": 38,
+     "unit": "%"
+    },
+    {
+     "label": {
+      "en": "Yogurt made at home",
+      "ar": "لبن منزلي"
+     },
+     "value": 62,
+     "unit": "%"
+    }
+   ],
+   "cite": {
+    "source": "chedid2018",
+    "pages": "19"
+   }
+  },
+  {
+   "id": "no-cold-chain",
+   "stage": "ingredients",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "practice",
+   "title": {
+    "en": "No refrigerated transport",
+    "ar": "نقل بلا تبريد"
+   },
+   "text": {
+    "en": "Milk and yogurt travel to makers without refrigeration, because suppliers are only a few minutes away.",
+    "ar": "يُنقل الحليب واللبن إلى الصانعات دون تبريد لأن المورّدين على بُعد دقائق فقط."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "19"
+   }
+  },
+  {
+   "id": "ratio-bulgur-yogurt",
+   "stage": "ratios",
+   "regions": [
+    "lebanon"
+   ],
+   "kind": "practice",
+   "title": {
+    "en": "About one part bulgur to four parts yogurt",
+    "ar": "نحو جزء برغل لأربعة أجزاء لبن"
+   },
+   "text": {
+    "en": "Literature on Lebanese kishk gives a bulgur-to-yogurt ratio of about 1 to 4, with salt added. Household ratios in Chouf and West Bekaa have not yet been recorded.",
+    "ar": "تذكر الأدبيات عن الكشك اللبناني نسبة برغل إلى لبن تقارب 1 إلى 4 مع إضافة الملح. لم تُوثَّق بعد النِّسَب المعتمدة في منازل الشوف والبقاع الغربي."
+   },
+   "figures": [
+    {
+     "label": {
+      "en": "Bulgur",
+      "ar": "برغل"
+     },
+     "value": 1,
+     "unit": "part"
+    },
+    {
+     "label": {
+      "en": "Yogurt",
+      "ar": "لبن"
+     },
+     "value": 4,
+     "unit": "parts"
+    }
+   ],
+   "cite": {
+    "source": "salameh2016",
+    "pages": "307"
+   }
+  },
+  {
+   "id": "ratio-salt",
+   "stage": "ratios",
+   "regions": [
+    "bekaa"
+   ],
+   "kind": "finding",
+   "title": {
+    "en": "Salt varies widely",
+    "ar": "تفاوت كبير في الملح"
+   },
+   "text": {
+    "en": "Salt in 25 Bekaa samples ranged from under 1 to almost 4.5 g per 100 g. The authors attribute this to how much salt each maker adds.",
+    "ar": "تراوح الملح في 25 عيّنة من البقاع بين أقلّ من 1 ونحو 4.5 غرام لكل 100 غرام، ويعزو الباحثون ذلك إلى الكمية التي تضيفها كل صانعة."
+   },
+   "figures": [
+    {
+     "label": {
+      "en": "Lowest",
+      "ar": "الأدنى"
+     },
+     "value": 0.95,
+     "unit": "g/100 g"
+    },
+    {
+     "label": {
+      "en": "Average",
+      "ar": "المتوسط"
+     },
+     "value": 2.84,
+     "unit": "g/100 g"
+    },
+    {
+     "label": {
+      "en": "Highest",
+      "ar": "الأعلى"
+     },
+     "value": 4.48,
+     "unit": "g/100 g"
+    }
+   ],
+   "cite": {
+    "source": "tamime1999",
+    "pages": "323"
+   }
+  },
+  {
+   "id": "ferm-rubbing",
+   "stage": "fermentation",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "practice",
+   "title": {
+    "en": "Four days of rubbing",
+    "ar": "أربعة أيام من الفرك"
+   },
+   "text": {
+    "en": "Coarse bulgur is soaked in yogurt in a large bowl, once clay and now often plastic, and rubbed by hand every day for four days until it has absorbed the yogurt. Yogurt is added each day so the mix does not dry out, and salt is added gradually to prevent mould.",
+    "ar": "يُنقع البرغل الخشن في اللبن داخل وعاء كبير كان من الفخّار وصار اليوم غالباً من البلاستيك، ويُفرك باليد يومياً لأربعة أيام حتى يتشرّب اللبن. يُضاف اللبن كل يوم كي لا يجفّ الخليط، ويُضاف الملح تدريجياً لمنع العفن."
+   },
+   "figures": [
+    {
+     "label": {
+      "en": "Rubbing",
+      "ar": "الفرك"
+     },
+     "value": 4,
+     "unit": "days"
+    }
+   ],
+   "cite": {
+    "source": "chedid2018",
+    "pages": "18"
+   }
+  },
+  {
+   "id": "ferm-green",
+   "stage": "fermentation",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "practice",
+   "title": {
+    "en": "Green kishk after nine days",
+    "ar": "الكشك الأخضر بعد تسعة أيام"
+   },
+   "text": {
+    "en": "Left to ferment for nine days, the mix becomes \"green\" kishk. It can be eaten fresh, like labneh, or kept in glass jars under olive oil.",
+    "ar": "يُترك الخليط ليتخمّر تسعة أيام فيصبح «كشكاً أخضر»، يؤكل طازجاً كاللبنة أو يُحفظ في مرطبانات زجاجية مغمور بزيت الزيتون."
+   },
+   "figures": [
+    {
+     "label": {
+      "en": "Fermentation",
+      "ar": "التخمير"
+     },
+     "value": 9,
+     "unit": "days"
+    }
+   ],
+   "cite": {
+    "source": "chedid2018",
+    "pages": "18"
+   }
+  },
+  {
+   "id": "ferm-social",
+   "stage": "fermentation",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "knowledge",
+   "title": {
+    "en": "Rubbing as a gathering",
+    "ar": "الفرك مناسبةً اجتماعية"
+   },
+   "text": {
+    "en": "Producers recall that rubbing kishk used to bring the neighbourhood's women together to help one another and share stories.",
+    "ar": "تتذكّر المنتجات أن فرك الكشك كان يجمع نساء الحيّ ليتعاونّ ويتبادلن الحكايات."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "18"
+   }
+  },
+  {
+   "id": "ferm-literature",
+   "stage": "fermentation",
+   "regions": [
+    "lebanon"
+   ],
+   "kind": "practice",
+   "title": {
+    "en": "Daily kneading in published accounts",
+    "ar": "العجن اليومي في الأدبيات"
+   },
+   "text": {
+    "en": "Published accounts of Lebanese kishk describe kneading the dough daily for up to 6–7 days at about 35 °C to finish fermentation.",
+    "ar": "تصف الأدبيات المنشورة عن الكشك اللبناني عجن الخليط يومياً لمدة تصل إلى 6–7 أيام عند نحو 35 درجة مئوية لإتمام التخمير."
+   },
+   "cite": {
+    "source": "salameh2016",
+    "pages": "307"
+   }
+  },
+  {
+   "id": "dry-rooftop",
+   "stage": "drying",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "practice",
+   "title": {
+    "en": "Sun-drying on the rooftop",
+    "ar": "التجفيف تحت الشمس على السطح"
+   },
+   "text": {
+    "en": "Green kishk is spread on clean cloth sheets on the rooftop to dry in the summer sun. It is rubbed every morning to break it into smaller pieces so it dries evenly.",
+    "ar": "يُفرد الكشك الأخضر على ملاءات قماشية نظيفة فوق السطح ليجفّ تحت شمس الصيف، ويُفرك كل صباح ليتفتّت إلى قطع أصغر فيجفّ بالتساوي."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "18"
+   }
+  },
+  {
+   "id": "dry-balls",
+   "stage": "drying",
+   "regions": [
+    "lebanon"
+   ],
+   "kind": "variation",
+   "title": {
+    "en": "Shaped into balls",
+    "ar": "التشكيل على هيئة كرات"
+   },
+   "text": {
+    "en": "Some published descriptions shape the dough into balls before sun-drying.",
+    "ar": "تذكر بعض الأوصاف المنشورة تشكيل العجينة كرات قبل تجفيفها تحت الشمس."
+   },
+   "cite": {
+    "source": "salameh2016",
+    "pages": "307"
+   }
+  },
+  {
+   "id": "mill-powder",
+   "stage": "milling",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "practice",
+   "title": {
+    "en": "Ground to a fine powder",
+    "ar": "الطحن حتى النعومة"
+   },
+   "text": {
+    "en": "Once completely dry, kishk is taken to the mill and ground into a fine powder, ready to sell.",
+    "ar": "عندما يجفّ الكشك تماماً يُحمل إلى المطحنة ويُطحن مسحوقاً ناعماً جاهزاً للبيع."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "18"
+   }
+  },
+  {
+   "id": "pack-bags",
+   "stage": "packaging",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "practice",
+   "title": {
+    "en": "Unlabelled bags",
+    "ar": "أكياس بلا ملصق"
+   },
+   "text": {
+    "en": "Kishk is sold in clear plastic or cloth bags with nothing on them about ingredients, production date, origin or nutrition.",
+    "ar": "يُباع الكشك في أكياس بلاستيكية شفافة أو قماشية لا تذكر المكوّنات ولا تاريخ الإنتاج ولا المنشأ ولا القيمة الغذائية."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "18"
+   }
+  },
+  {
+   "id": "pack-trust",
+   "stage": "packaging",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "knowledge",
+   "title": {
+    "en": "Trust instead of labels",
+    "ar": "الثقة بدل الملصق"
+   },
+   "text": {
+    "en": "Makers rely on their relationship with buyers and are reluctant to spend on better packaging.",
+    "ar": "تعتمد الصانعات على علاقة الثقة مع المشترين ويتردّدن في الإنفاق على تعبئة أفضل."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "19"
+   }
+  },
+  {
+   "id": "pack-commercial",
+   "stage": "packaging",
+   "regions": [
+    "bekaa"
+   ],
+   "kind": "finding",
+   "title": {
+    "en": "Most commercial kishk sold loose",
+    "ar": "معظم الكشك التجاري يُباع سائباً"
+   },
+   "text": {
+    "en": "Of 25 kishk samples bought in the Bekaa and nearby mountain villages, only 4 came bagged. The rest were sold open.",
+    "ar": "من بين 25 عيّنة كشك اشتُريت في البقاع والقرى الجبلية المجاورة، لم تكن إلا 4 معبّأة في أكياس، وبيعت البقية سائبة."
+   },
+   "figures": [
+    {
+     "label": {
+      "en": "Bagged",
+      "ar": "معبّأ"
+     },
+     "value": 4,
+     "unit": "samples"
+    },
+    {
+     "label": {
+      "en": "Open",
+      "ar": "سائب"
+     },
+     "value": 21,
+     "unit": "samples"
+    }
+   ],
+   "cite": {
+    "source": "tamime1999",
+    "pages": "320"
+   }
+  },
+  {
+   "id": "store-winter",
+   "stage": "storage",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "knowledge",
+   "title": {
+    "en": "A summer task for winter",
+    "ar": "عمل الصيف لمؤونة الشتاء"
+   },
+   "text": {
+    "en": "Kishk is made in summer as a provision for winter, when it is eaten as a thick soup with qawarma and bread, or spread on man'oushe.",
+    "ar": "يُحضَّر الكشك صيفاً مؤونةً للشتاء، فيؤكل حساءً كثيفاً مع القاورما والخبز أو يُفرد على المنقوشة."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "16–17"
+   }
+  },
+  {
+   "id": "store-stability",
+   "stage": "storage",
+   "regions": [
+    "lebanon"
+   ],
+   "kind": "finding",
+   "title": {
+    "en": "Why it keeps",
+    "ar": "لماذا يدوم"
+   },
+   "text": {
+    "en": "Low moisture and acidic pH protect kishk against pathogens. Kept in jars, the powder can last one to two years without spoiling.",
+    "ar": "تحمي الرطوبة المنخفضة ودرجة الحموضة الكشكَ من الجراثيم الممرضة، ويمكن أن يدوم المسحوق في المرطبانات سنة إلى سنتين دون أن يفسد."
+   },
+   "cite": {
+    "source": "salameh2016",
+    "pages": "307"
+   }
+  },
+  {
+   "id": "women-led",
+   "stage": "community",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "knowledge",
+   "title": {
+    "en": "A women-led household craft",
+    "ar": "حرفة منزلية تقودها النساء"
+   },
+   "text": {
+    "en": "Kishk is a hand-made family activity led by women. In a few households husbands help too.",
+    "ar": "الكشك حرفة يدوية عائلية تقودها النساء، ويشارك الأزواج في بعض المنازل."
+   },
+   "figures": [
+    {
+     "label": {
+      "en": "Husbands involved, West Bekaa",
+      "ar": "مشاركة الأزواج، البقاع الغربي"
+     },
+     "value": 2,
+     "unit": "cases"
+    },
+    {
+     "label": {
+      "en": "Husbands involved, Chouf",
+      "ar": "مشاركة الأزواج، الشوف"
+     },
+     "value": 4,
+     "unit": "cases"
+    }
+   ],
+   "cite": {
+    "source": "chedid2018",
+    "pages": "18"
+   }
+  },
+  {
+   "id": "groups",
+   "stage": "community",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "variation",
+   "title": {
+    "en": "Women's groups and a cooperative",
+    "ar": "مجموعات نسائية وتعاونية"
+   },
+   "text": {
+    "en": "In the West Bekaa, three women's groups (two small dairy units and one agro-food cooperative) sell directly to buyers. In the Chouf, two groups working from home supply a retail shop.",
+    "ar": "في البقاع الغربي تبيع ثلاث مجموعات نسائية (وحدتا ألبان صغيرتان وتعاونية زراعية غذائية) مباشرةً للمشترين، وفي الشوف تزوّد مجموعتان تعملان من المنزل متجراً للبيع بالتجزئة."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "18"
+   }
+  },
+  {
+   "id": "scale-labour",
+   "stage": "community",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "finding",
+   "title": {
+    "en": "Scale and labour",
+    "ar": "حجم الإنتاج والعمل"
+   },
+   "text": {
+    "en": "Output ranges from 5 to 500 kg a year per maker or group, about 50 kg for a typical household. A season takes 3 to 5 people about 20 days over a month.",
+    "ar": "يتراوح الإنتاج بين 5 و500 كغ سنوياً للصانعة أو المجموعة، أي نحو 50 كغ للمنزل في المتوسط، ويتطلّب الموسم من 3 إلى 5 أشخاص لنحو 20 يوماً خلال شهر."
+   },
+   "figures": [
+    {
+     "label": {
+      "en": "Average per household",
+      "ar": "متوسط المنزل"
+     },
+     "value": 50,
+     "unit": "kg/season"
+    },
+    {
+     "label": {
+      "en": "People involved",
+      "ar": "عدد العاملين"
+     },
+     "value": "3–5",
+     "unit": "people"
+    },
+    {
+     "label": {
+      "en": "Working days",
+      "ar": "أيام العمل"
+     },
+     "value": "~20",
+     "unit": "days"
+    }
+   ],
+   "cite": {
+    "source": "chedid2018",
+    "pages": "18"
+   }
+  },
+  {
+   "id": "selling",
+   "stage": "community",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "practice",
+   "title": {
+    "en": "Sold through kin and pre-orders",
+    "ar": "البيع عبر الأقارب والطلب المسبق"
+   },
+   "text": {
+    "en": "Sales are mostly direct, through family and personal contacts, on pre-order, in the same or nearby towns and in the city. A few makers sell at a weekly farmers' market in Beirut.",
+    "ar": "يتمّ البيع غالباً مباشرةً عبر الأقارب والمعارف وبالطلب المسبق، في البلدة نفسها أو البلدات المجاورة وفي المدينة، وتبيع قلّة في سوق مزارعين أسبوعي في بيروت."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "18"
+   }
+  },
+  {
+   "id": "economics",
+   "stage": "community",
+   "regions": [
+    "chouf",
+    "west_bekaa"
+   ],
+   "kind": "finding",
+   "title": {
+    "en": "Profitable even with bought ingredients",
+    "ar": "مربح حتى مع شراء المكوّنات"
+   },
+   "text": {
+    "en": "In 2014, producing a kilo cost LBP 8,745–11,475 excluding labour, depending on whether milk, yogurt and bulgur were bought or made at home. Kishk sold for about LBP 30,000 per kilo, at USD 1 = LBP 1,500.",
+    "ar": "في عام 2014 بلغت كلفة إنتاج الكيلو بين 8,745 و11,475 ليرة لبنانية من دون احتساب العمل، بحسب شراء الحليب واللبن والبرغل أو تحضيرها في المنزل، وبيع الكيلو بنحو 30,000 ليرة (الدولار = 1,500 ليرة)."
+   },
+   "cite": {
+    "source": "chedid2018",
+    "pages": "18"
+   }
+  }
+ ],
+ "quality": {
+  "parameters": [
+   {
+    "id": "moisture",
+    "name": {
+     "en": "Moisture",
+     "ar": "الرطوبة"
+    },
+    "unit": "g/100 g"
+   },
+   {
+    "id": "protein",
+    "name": {
+     "en": "Protein",
+     "ar": "البروتين"
+    },
+    "unit": "g/100 g"
+   },
+   {
+    "id": "fat",
+    "name": {
+     "en": "Fat",
+     "ar": "الدهون"
+    },
+    "unit": "g/100 g"
+   },
+   {
+    "id": "ash",
+    "name": {
+     "en": "Ash",
+     "ar": "الرماد"
+    },
+    "unit": "g/100 g"
+   },
+   {
+    "id": "carbohydrate",
+    "name": {
+     "en": "Carbohydrate",
+     "ar": "الكربوهيدرات"
+    },
+    "unit": "g/100 g"
+   },
+   {
+    "id": "salt",
+    "name": {
+     "en": "Salt",
+     "ar": "الملح"
+    },
+    "unit": "g/100 g"
+   },
+   {
+    "id": "ph",
+    "name": {
+     "en": "pH",
+     "ar": "الأس الهيدروجيني"
+    },
+    "unit": ""
+   },
+   {
+    "id": "acidity",
+    "name": {
+     "en": "Acidity (lactic acid)",
+     "ar": "الحموضة (حمض اللاكتيك)"
+    },
+    "unit": "%"
+   },
+   {
+    "id": "water_activity",
+    "name": {
+     "en": "Water activity",
+     "ar": "النشاط المائي"
+    },
+    "unit": "aw"
+   }
+  ],
+  "observations": [
+   {
+    "param": "protein",
+    "source": "tamime1999",
+    "pages": "317",
+    "region": "bekaa",
+    "group": {
+     "en": "25 commercial samples",
+     "ar": "25 عيّنة تجارية"
+    },
+    "n": 25,
+    "min": 14.7,
+    "max": 21.4,
+    "basis": "dmb"
+   },
+   {
+    "param": "fat",
+    "source": "tamime1999",
+    "pages": "317",
+    "region": "bekaa",
+    "group": {
+     "en": "25 commercial samples",
+     "ar": "25 عيّنة تجارية"
+    },
+    "n": 25,
+    "min": 2.6,
+    "max": 11.5,
+    "basis": "dmb"
+   },
+   {
+    "param": "ash",
+    "source": "tamime1999",
+    "pages": "317",
+    "region": "bekaa",
+    "group": {
+     "en": "25 commercial samples",
+     "ar": "25 عيّنة تجارية"
+    },
+    "n": 25,
+    "min": 4.1,
+    "max": 9.3,
+    "basis": "dmb"
+   },
+   {
+    "param": "carbohydrate",
+    "source": "tamime1999",
+    "pages": "317",
+    "region": "bekaa",
+    "group": {
+     "en": "25 commercial samples",
+     "ar": "25 عيّنة تجارية"
+    },
+    "n": 25,
+    "min": 61.0,
+    "max": 76.8,
+    "basis": "dmb"
+   },
+   {
+    "param": "moisture",
+    "source": "tamime1999",
+    "pages": "317",
+    "region": "bekaa",
+    "group": {
+     "en": "25 commercial samples",
+     "ar": "25 عيّنة تجارية"
+    },
+    "n": 25,
+    "min": 6.8,
+    "max": 10.8,
+    "basis": "asis"
+   },
+   {
+    "param": "salt",
+    "source": "tamime1999",
+    "pages": "317, 323",
+    "region": "bekaa",
+    "group": {
+     "en": "25 commercial samples",
+     "ar": "25 عيّنة تجارية"
+    },
+    "n": 25,
+    "min": 0.95,
+    "max": 4.48,
+    "mean": 2.84,
+    "basis": "dmb"
+   },
+   {
+    "param": "ph",
+    "source": "tamime1999",
+    "pages": "317",
+    "region": "bekaa",
+    "group": {
+     "en": "25 commercial samples",
+     "ar": "25 عيّنة تجارية"
+    },
+    "n": 25,
+    "mean": 3.8,
+    "basis": "asis"
+   },
+   {
+    "param": "moisture",
+    "source": "salameh2016",
+    "pages": "308",
+    "region": "lebanon",
+    "milk": "cow",
+    "group": {
+     "en": "Cow milk",
+     "ar": "حليب البقر"
+    },
+    "n": 10,
+    "mean": 6.08,
+    "sd": 0.34,
+    "basis": "asis"
+   },
+   {
+    "param": "moisture",
+    "source": "salameh2016",
+    "pages": "308",
+    "region": "lebanon",
+    "milk": "goat",
+    "group": {
+     "en": "Goat milk",
+     "ar": "حليب الماعز"
+    },
+    "n": 5,
+    "mean": 6.65,
+    "sd": 0.3,
+    "basis": "asis"
+   },
+   {
+    "param": "moisture",
+    "source": "salameh2016",
+    "pages": "308",
+    "region": "lebanon",
+    "milk": "mixed",
+    "group": {
+     "en": "Goat + cow",
+     "ar": "ماعز + بقر"
+    },
+    "n": 5,
+    "mean": 6.55,
+    "sd": 0.56,
+    "basis": "asis"
+   },
+   {
+    "param": "ash",
+    "source": "salameh2016",
+    "pages": "308",
+    "region": "lebanon",
+    "milk": "cow",
+    "group": {
+     "en": "Cow milk",
+     "ar": "حليب البقر"
+    },
+    "n": 10,
+    "mean": 6.27,
+    "sd": 0.65,
+    "basis": "dmb"
+   },
+   {
+    "param": "ash",
+    "source": "salameh2016",
+    "pages": "308",
+    "region": "lebanon",
+    "milk": "goat",
+    "group": {
+     "en": "Goat milk",
+     "ar": "حليب الماعز"
+    },
+    "n": 5,
+    "mean": 7.33,
+    "sd": 0.24,
+    "basis": "dmb"
+   },
+   {
+    "param": "ash",
+    "source": "salameh2016",
+    "pages": "308",
+    "region": "lebanon",
+    "milk": "mixed",
+    "group": {
+     "en": "Goat + cow",
+     "ar": "ماعز + بقر"
+    },
+    "n": 5,
+    "mean": 6.71,
+    "sd": 1.44,
+    "basis": "dmb"
+   },
+   {
+    "param": "protein",
+    "source": "salameh2016",
+    "pages": "308",
+    "region": "lebanon",
+    "milk": "cow",
+    "group": {
+     "en": "Cow milk",
+     "ar": "حليب البقر"
+    },
+    "n": 10,
+    "mean": 21.83,
+    "sd": 1.1,
+    "basis": "dmb"
+   },
+   {
+    "param": "protein",
+    "source": "salameh2016",
+    "pages": "308",
+    "region": "lebanon",
+    "milk": "goat",
+    "group": {
+     "en": "Goat milk",
+     "ar": "حليب الماعز"
+    },
+    "n": 5,
+    "mean": 21.03,
+    "sd": 0.71,
+    "basis": "dmb"
+   },
+   {
+    "param": "protein",
+    "source": "salameh2016",
+    "pages": "308",
+    "region": "lebanon",
+    "milk": "mixed",
+    "group": {
+     "en": "Goat + cow",
+     "ar": "ماعز + بقر"
+    },
+    "n": 5,
+    "mean": 20.1,
+    "sd": 1.24,
+    "basis": "dmb"
+   },
+   {
+    "param": "fat",
+    "source": "salameh2016",
+    "pages": "308",
+    "region": "lebanon",
+    "milk": "cow",
+    "group": {
+     "en": "Cow milk",
+     "ar": "حليب البقر"
+    },
+    "n": 10,
+    "mean": 16.9,
+    "sd": 1.54,
+    "basis": "dmb"
+   },
+   {
+    "param": "fat",
+    "source": "salameh2016",
+    "pages": "308",
+    "region": "lebanon",
+    "milk": "goat",
+    "group": {
+     "en": "Goat milk",
+     "ar": "حليب الماعز"
+    },
+    "n": 5,
+    "mean": 20.36,
+    "sd": 1.04,
+    "basis": "dmb",
+    "note": {
+     "en": "Significantly higher than the other milk types.",
+     "ar": "أعلى بفارق ذي دلالة من الأنواع الأخرى."
+    }
+   },
+   {
+    "param": "fat",
+    "source": "salameh2016",
+    "pages": "308",
+    "region": "lebanon",
+    "milk": "mixed",
+    "group": {
+     "en": "Goat + cow",
+     "ar": "ماعز + بقر"
+    },
+    "n": 5,
+    "mean": 17.13,
+    "sd": 1.92,
+    "basis": "dmb"
+   },
+   {
+    "param": "ph",
+    "source": "salameh2016",
+    "pages": "308",
+    "region": "lebanon",
+    "milk": "cow",
+    "group": {
+     "en": "Cow milk",
+     "ar": "حليب البقر"
+    },
+    "n": 10,
+    "mean": 4.27,
+    "sd": 0.16,
+    "basis": "asis"
+   },
+   {
+    "param": "ph",
+    "source": "salameh2016",
+    "pages": "308",
+    "region": "lebanon",
+    "milk": "goat",
+    "group": {
+     "en": "Goat milk",
+     "ar": "حليب الماعز"
+    },
+    "n": 5,
+    "mean": 4.18,
+    "sd": 0.12,
+    "basis": "asis"
+   },
+   {
+    "param": "ph",
+    "source": "salameh2016",
+    "pages": "308",
+    "region": "lebanon",
+    "milk": "mixed",
+    "group": {
+     "en": "Goat + cow",
+     "ar": "ماعز + بقر"
+    },
+    "n": 5,
+    "mean": 4.21,
+    "sd": 0.14,
+    "basis": "asis"
+   },
+   {
+    "param": "ph",
+    "source": "abdelrazik2016",
+    "pages": "1271",
+    "region": "reference",
+    "group": {
+     "en": "Lab-made, several cereals",
+     "ar": "مُعدّ مخبرياً، حبوب متعدّدة"
+    },
+    "min": 4.39,
+    "max": 4.84,
+    "basis": "asis"
+   },
+   {
+    "param": "acidity",
+    "source": "abdelrazik2016",
+    "pages": "1271",
+    "region": "reference",
+    "group": {
+     "en": "Lab-made, several cereals",
+     "ar": "مُعدّ مخبرياً، حبوب متعدّدة"
+    },
+    "min": 1.27,
+    "max": 1.5,
+    "basis": "asis"
+   },
+   {
+    "param": "water_activity",
+    "source": "abdelrazik2016",
+    "pages": "1271",
+    "region": "reference",
+    "group": {
+     "en": "Lab-made, several cereals",
+     "ar": "مُعدّ مخبرياً، حبوب متعدّدة"
+    },
+    "min": 0.31,
+    "max": 0.35,
+    "basis": "asis"
+   }
+  ],
+  "links": {
+   "moisture": [
+    "dry-rooftop",
+    "store-stability"
+   ],
+   "ph": [
+    "ferm-green",
+    "store-stability"
+   ],
+   "acidity": [
+    "ferm-rubbing",
+    "ferm-green"
+   ],
+   "salt": [
+    "ferm-rubbing",
+    "ratio-salt"
+   ],
+   "fat": [
+    "milk-west-bekaa",
+    "milk-chouf"
+   ],
+   "protein": [
+    "milk-west-bekaa",
+    "milk-chouf",
+    "ratio-bulgur-yogurt"
+   ],
+   "ash": [
+    "milk-west-bekaa",
+    "milk-chouf"
+   ],
+   "carbohydrate": [
+    "bulgur-colour",
+    "ratio-bulgur-yogurt"
+   ],
+   "water_activity": [
+    "dry-rooftop",
+    "store-stability"
+   ]
+  },
+  "samples": {
+   "cite": {
+    "source": "tamime1999",
+    "pages": "320"
+   },
+   "rows": [
+    {
+     "sample": 1,
+     "area": "mid_bekaa",
+     "outlet": "supermarket",
+     "milk": "unknown",
+     "pack": "open",
+     "flow": "poor",
+     "particle": "fine",
+     "colour": "cream"
+    },
+    {
+     "sample": 2,
+     "area": "mid_bekaa",
+     "outlet": "dairy",
+     "milk": "unknown",
+     "pack": "bagged",
+     "flow": "good",
+     "particle": "fine",
+     "colour": "cream"
+    },
+    {
+     "sample": 3,
+     "area": "mid_bekaa",
+     "outlet": "dairy",
+     "milk": "unknown",
+     "pack": "open",
+     "flow": "poor",
+     "particle": "fine",
+     "colour": "cream"
+    },
+    {
+     "sample": 4,
+     "area": "mid_bekaa",
+     "outlet": "supermarket",
+     "milk": "unknown",
+     "pack": "bagged",
+     "flow": "fair",
+     "particle": "fine",
+     "colour": "off_white"
+    },
+    {
+     "sample": 5,
+     "area": "mid_bekaa",
+     "outlet": "granary",
+     "milk": "unknown",
+     "pack": "bagged",
+     "flow": "poor",
+     "particle": "fine",
+     "colour": "cream"
+    },
+    {
+     "sample": 6,
+     "area": "mid_bekaa",
+     "outlet": "dairy",
+     "milk": "unknown",
+     "pack": "open",
+     "flow": "good",
+     "particle": "fine",
+     "colour": "cream"
+    },
+    {
+     "sample": 7,
+     "area": "mid_bekaa",
+     "outlet": "supermarket",
+     "milk": "unknown",
+     "pack": "open",
+     "flow": "good",
+     "particle": "fine",
+     "colour": "magnolia"
+    },
+    {
+     "sample": 8,
+     "area": "mid_bekaa",
+     "outlet": "granary",
+     "milk": "goat_cow",
+     "pack": "open",
+     "flow": "good",
+     "particle": "fine",
+     "colour": "cream"
+    },
+    {
+     "sample": 9,
+     "area": "mid_bekaa",
+     "outlet": "granary",
+     "milk": "goat",
+     "pack": "open",
+     "flow": "good",
+     "particle": "fine",
+     "colour": "magnolia"
+    },
+    {
+     "sample": 10,
+     "area": "mid_bekaa",
+     "outlet": "home",
+     "milk": "goat",
+     "pack": "open",
+     "flow": "good",
+     "particle": "grainy",
+     "colour": "white"
+    },
+    {
+     "sample": 11,
+     "area": "mid_bekaa",
+     "outlet": "granary",
+     "milk": "cow",
+     "pack": "open",
+     "flow": "good",
+     "particle": "fine",
+     "colour": "cream"
+    },
+    {
+     "sample": 12,
+     "area": "mid_bekaa",
+     "outlet": "granary",
+     "milk": "goat_cow",
+     "pack": "open",
+     "flow": "good",
+     "particle": "gritty",
+     "colour": "cream"
+    },
+    {
+     "sample": 13,
+     "area": "mid_bekaa",
+     "outlet": "granary",
+     "milk": "goat",
+     "pack": "open",
+     "flow": "poor",
+     "particle": "fine",
+     "colour": "magnolia"
+    },
+    {
+     "sample": 14,
+     "area": "mid_bekaa",
+     "outlet": "granary",
+     "milk": "unknown",
+     "pack": "open",
+     "flow": "poor",
+     "particle": "grainy",
+     "colour": "magnolia"
+    },
+    {
+     "sample": 15,
+     "area": "north_bekaa",
+     "outlet": "granary",
+     "milk": "sheep",
+     "pack": "open",
+     "flow": "good",
+     "particle": "gritty",
+     "colour": "golden"
+    },
+    {
+     "sample": 16,
+     "area": "south_bekaa",
+     "outlet": "home",
+     "milk": "unknown",
+     "pack": "open",
+     "flow": "good",
+     "particle": "gritty",
+     "colour": "golden"
+    },
+    {
+     "sample": 17,
+     "area": "south_bekaa",
+     "outlet": "home",
+     "milk": "unknown",
+     "pack": "open",
+     "flow": "good",
+     "particle": "fine",
+     "colour": "magnolia"
+    },
+    {
+     "sample": 18,
+     "area": "south_bekaa",
+     "outlet": "granary",
+     "milk": "unknown",
+     "pack": "bagged",
+     "flow": "good",
+     "particle": "fine",
+     "colour": "cream"
+    },
+    {
+     "sample": 19,
+     "area": "mountains",
+     "outlet": "supermarket",
+     "milk": "unknown",
+     "pack": "open",
+     "flow": "poor",
+     "particle": "fine",
+     "colour": "cream"
+    },
+    {
+     "sample": 20,
+     "area": "mountains",
+     "outlet": "dairy",
+     "milk": "cow",
+     "pack": "open",
+     "flow": "poor",
+     "particle": "fine",
+     "colour": "magnolia"
+    },
+    {
+     "sample": 21,
+     "area": "mountains",
+     "outlet": "dairy",
+     "milk": "goat",
+     "pack": "open",
+     "flow": "fair",
+     "particle": "fine",
+     "colour": "magnolia"
+    },
+    {
+     "sample": 22,
+     "area": "mountains",
+     "outlet": "granary",
+     "milk": "goat_cow",
+     "pack": "open",
+     "flow": "good",
+     "particle": "grainy",
+     "colour": "cream"
+    },
+    {
+     "sample": 23,
+     "area": "mountains",
+     "outlet": "home",
+     "milk": "goat",
+     "pack": "open",
+     "flow": "good",
+     "particle": "fine",
+     "colour": "magnolia"
+    },
+    {
+     "sample": 24,
+     "area": "mountains",
+     "outlet": "dairy",
+     "milk": "goat",
+     "pack": "open",
+     "flow": "good",
+     "particle": "grainy",
+     "colour": "cream"
+    },
+    {
+     "sample": 25,
+     "area": "mountains",
+     "outlet": "unknown",
+     "milk": "unknown",
+     "pack": "open",
+     "flow": "good",
+     "particle": "fine",
+     "colour": "off_white"
+    }
+   ]
+  },
+  "qc": {
+   "cite": {
+    "source": "abdelrazik2016",
+    "pages": "1269–1271"
+   },
+   "caveat": {
+    "en": "These control points come from a small-scale Egyptian study made under controlled conditions (incubation 40 °C for 24 h, drying 50 °C for 24 h). Chouf and West Bekaa kishk ferments for about nine days at ambient temperature and dries in the sun, so these limits do not transfer directly. Local limits still need to be set with producers and lab testing.",
+    "ar": "نقاط التحكّم هذه مأخوذة من دراسة مصرية صغيرة في ظروف مضبوطة (حضانة 40 درجة مئوية لـ24 ساعة، وتجفيف 50 درجة مئوية لـ24 ساعة). أما كشك الشوف والبقاع الغربي فيتخمّر نحو تسعة أيام في حرارة الجو ويجفّ تحت الشمس، لذا لا تنطبق هذه الحدود مباشرةً، ويجب وضع حدود محلية بالتعاون مع المنتجين وبالفحوص المخبرية."
+   },
+   "ccps": [
+    {
+     "id": "ccp1",
+     "stage": "ingredients",
+     "step": {
+      "en": "Receiving milk, yogurt, grain and salt",
+      "ar": "استلام الحليب واللبن والحبوب والملح"
+     },
+     "hazard": {
+      "en": "Biological, chemical, physical",
+      "ar": "بيولوجي، كيميائي، فيزيائي"
+     },
+     "limit": {
+      "en": "Ingredients meet the supplier's specification",
+      "ar": "مطابقة المكوّنات لمواصفات المورّد"
+     },
+     "monitor": {
+      "en": "Check the supplier guarantee and inspect each ingredient visually",
+      "ar": "التحقّق من ضمان المورّد والفحص البصري لكل مكوّن"
+     },
+     "action": {
+      "en": "Reject any doubtful ingredient that arrives without a guarantee",
+      "ar": "رفض أيّ مكوّن مشكوك فيه يصل دون ضمان"
+     },
+     "verify": {
+      "en": "Audit supplier guarantees",
+      "ar": "تدقيق ضمانات المورّدين"
+     }
+    },
+    {
+     "id": "ccp2",
+     "stage": "ingredients",
+     "step": {
+      "en": "Cleaning the grain",
+      "ar": "تنظيف الحبوب"
+     },
+     "hazard": {
+      "en": "Physical (stones, debris)",
+      "ar": "فيزيائي (حصى وشوائب)"
+     },
+     "limit": {
+      "en": "No visible foreign matter in sieved grain",
+      "ar": "خلوّ الحبوب المغربلة من أيّ شوائب ظاهرة"
+     },
+     "monitor": {
+      "en": "Visual inspection of cleaned grain",
+      "ar": "فحص بصري للحبوب المنظّفة"
+     },
+     "action": {
+      "en": "Sieve again",
+      "ar": "إعادة الغربلة"
+     },
+     "verify": {
+      "en": "Test and inspect the sieves",
+      "ar": "اختبار المناخل وفحصها"
+     }
+    },
+    {
+     "id": "ccp3",
+     "stage": "fermentation",
+     "step": {
+      "en": "Fermenting the bulgur–yogurt mix",
+      "ar": "تخمير خليط البرغل واللبن"
+     },
+     "hazard": {
+      "en": "Biological (pathogens, moulds)",
+      "ar": "بيولوجي (جراثيم ممرضة وعفن)"
+     },
+     "limit": {
+      "en": "Time and temperature within the set limits (40 ± 2 °C, 24 h in the study)",
+      "ar": "الالتزام بحدود الزمن والحرارة (40 ± 2 درجة مئوية لـ24 ساعة في الدراسة)"
+     },
+     "monitor": {
+      "en": "Record time and temperature. Measure pH and acidity.",
+      "ar": "تسجيل الزمن والحرارة وقياس الأس الهيدروجيني والحموضة"
+     },
+     "action": {
+      "en": "Correct the conditions and reprocess if needed",
+      "ar": "تصحيح الظروف وإعادة المعالجة عند الحاجة"
+     },
+     "verify": {
+      "en": "Review the records. Test pH, acidity and water activity.",
+      "ar": "مراجعة السجلات وفحص الأس الهيدروجيني والحموضة والنشاط المائي"
+     }
+    },
+    {
+     "id": "ccp4",
+     "stage": "drying",
+     "step": {
+      "en": "Forming and drying",
+      "ar": "التشكيل والتجفيف"
+     },
+     "hazard": {
+      "en": "Biological (moulds, yeasts)",
+      "ar": "بيولوجي (عفن وخمائر)"
+     },
+     "limit": {
+      "en": "Drying time and temperature within the set limits (50 ± 2 °C, 24 h in the study)",
+      "ar": "الالتزام بحدود زمن وحرارة التجفيف (50 ± 2 درجة مئوية لـ24 ساعة في الدراسة)"
+     },
+     "monitor": {
+      "en": "Record drying conditions. Measure water activity.",
+      "ar": "تسجيل ظروف التجفيف وقياس النشاط المائي"
+     },
+     "action": {
+      "en": "Correct the conditions and dry again",
+      "ar": "تصحيح الظروف وإعادة التجفيف"
+     },
+     "verify": {
+      "en": "Review the records. Test the finished kishk microbiologically.",
+      "ar": "مراجعة السجلات والفحص الميكروبيولوجي للكشك النهائي"
+     }
+    }
+   ]
+  }
+ },
+ "slots": {
+  "sops": [
+   {
+    "stage": "ingredients",
+    "from_literature": [
+     "milk-west-bekaa",
+     "milk-chouf",
+     "durum-only",
+     "no-cold-chain"
+    ],
+    "qc": [
+     "ccp1",
+     "ccp2"
+    ]
+   },
+   {
+    "stage": "ratios",
+    "from_literature": [
+     "ratio-bulgur-yogurt",
+     "ratio-salt"
+    ],
+    "qc": []
+   },
+   {
+    "stage": "fermentation",
+    "from_literature": [
+     "ferm-rubbing",
+     "ferm-green"
+    ],
+    "qc": [
+     "ccp3"
+    ]
+   },
+   {
+    "stage": "drying",
+    "from_literature": [
+     "dry-rooftop"
+    ],
+    "qc": [
+     "ccp4"
+    ]
+   },
+   {
+    "stage": "milling",
+    "from_literature": [
+     "mill-powder"
+    ],
+    "qc": []
+   },
+   {
+    "stage": "packaging",
+    "from_literature": [
+     "pack-bags"
+    ],
+    "qc": []
+   },
+   {
+    "stage": "storage",
+    "from_literature": [
+     "store-stability"
+    ],
+    "qc": []
+   }
+  ],
+  "sop_sections": [
+   {
+    "en": "Purpose and scope",
+    "ar": "الغرض والنطاق"
+   },
+   {
+    "en": "Materials and equipment",
+    "ar": "المواد والأدوات"
+   },
+   {
+    "en": "Hygiene requirements",
+    "ar": "متطلبات النظافة"
+   },
+   {
+    "en": "Step-by-step method",
+    "ar": "خطوات العمل"
+   },
+   {
+    "en": "Quality checkpoints",
+    "ar": "نقاط فحص الجودة"
+   },
+   {
+    "en": "Records to keep",
+    "ar": "السجلات الواجب حفظها"
+   }
+  ],
+  "media": [
+   {
+    "practice": "ferm-rubbing",
+    "type": "video",
+    "caption": {
+     "en": "Rubbing bulgur into yogurt by hand",
+     "ar": "فرك البرغل باللبن يدوياً"
+    }
+   },
+   {
+    "practice": "ferm-green",
+    "type": "photo",
+    "caption": {
+     "en": "Green kishk at day nine",
+     "ar": "الكشك الأخضر في اليوم التاسع"
+    }
+   },
+   {
+    "practice": "dry-rooftop",
+    "type": "photo",
+    "caption": {
+     "en": "Kishk drying on cloth on a rooftop",
+     "ar": "الكشك يجفّ على القماش فوق السطح"
+    }
+   },
+   {
+    "practice": "mill-powder",
+    "type": "video",
+    "caption": {
+     "en": "Milling dried kishk",
+     "ar": "طحن الكشك المجفّف"
+    }
+   },
+   {
+    "practice": "pack-bags",
+    "type": "photo",
+    "caption": {
+     "en": "Kishk as sold today",
+     "ar": "الكشك كما يُباع اليوم"
+    }
+   },
+   {
+    "practice": "milk-west-bekaa",
+    "type": "photo",
+    "caption": {
+     "en": "Goat milk from a West Bekaa herd",
+     "ar": "حليب الماعز من قطيع في البقاع الغربي"
+    }
+   },
+   {
+    "practice": "sourcing-chouf",
+    "type": "photo",
+    "caption": {
+     "en": "Home-made yogurt in the Chouf",
+     "ar": "لبن منزلي في الشوف"
+    }
+   },
+   {
+    "practice": "groups",
+    "type": "video",
+    "caption": {
+     "en": "A women's cooperative at work",
+     "ar": "تعاونية نسائية أثناء العمل"
+    }
+   }
+  ],
+  "coverage": [
+   {
+    "id": "practices",
+    "status": "partial",
+    "en": "Documented production practices",
+    "ar": "ممارسات الإنتاج الموثّقة"
+   },
+   {
+    "id": "regional",
+    "status": "partial",
+    "en": "Regional variations (Chouf vs West Bekaa)",
+    "ar": "الفروقات الإقليمية (الشوف والبقاع الغربي)"
+   },
+   {
+    "id": "lab",
+    "status": "partial",
+    "en": "Lab results (no Chouf samples yet)",
+    "ar": "نتائج المختبر (لا عيّنات من الشوف بعد)"
+   },
+   {
+    "id": "qc",
+    "status": "draft",
+    "en": "Quality-control guidance",
+    "ar": "إرشادات ضبط الجودة"
+   },
+   {
+    "id": "recipes",
+    "status": "planned",
+    "en": "Household recipes and exact ratios",
+    "ar": "وصفات المنازل والنِّسَب الدقيقة"
+   },
+   {
+    "id": "sops",
+    "status": "planned",
+    "en": "Validated Arabic/English SOPs",
+    "ar": "إجراءات تشغيل معيارية معتمدة بالعربية والإنكليزية"
+   },
+   {
+    "id": "media",
+    "status": "planned",
+    "en": "Photos and videos with consent",
+    "ar": "صور وفيديوهات بموافقة أصحابها"
+   },
+   {
+    "id": "oral",
+    "status": "planned",
+    "en": "Oral histories across generations",
+    "ar": "روايات شفهية عبر الأجيال"
+   }
+  ]
+ },
+ "vocab": {
+  "area": {
+   "mid_bekaa": {
+    "en": "Mid-Bekaa",
+    "ar": "البقاع الأوسط"
+   },
+   "north_bekaa": {
+    "en": "North Bekaa (Baalbek)",
+    "ar": "البقاع الشمالي (بعلبك)"
+   },
+   "south_bekaa": {
+    "en": "South Bekaa (Hasbaya, Rashaya)",
+    "ar": "البقاع الجنوبي (حاصبيا، راشيا)"
+   },
+   "mountains": {
+    "en": "Mountain villages",
+    "ar": "القرى الجبلية"
+   }
+  },
+  "outlet": {
+   "supermarket": {
+    "en": "Supermarket",
+    "ar": "متجر كبير"
+   },
+   "dairy": {
+    "en": "Dairy",
+    "ar": "معمل ألبان"
+   },
+   "granary": {
+    "en": "Granary",
+    "ar": "مطحنة / مخزن حبوب"
+   },
+   "home": {
+    "en": "Home-made",
+    "ar": "صنع منزلي"
+   },
+   "unknown": {
+    "en": "Not reported",
+    "ar": "غير مذكور"
+   }
+  },
+  "milk": {
+   "cow": {
+    "en": "Cow",
+    "ar": "بقر"
+   },
+   "goat": {
+    "en": "Goat",
+    "ar": "ماعز"
+   },
+   "sheep": {
+    "en": "Sheep",
+    "ar": "غنم"
+   },
+   "goat_cow": {
+    "en": "Goat + cow",
+    "ar": "ماعز + بقر"
+   },
+   "mixed": {
+    "en": "Goat + cow",
+    "ar": "ماعز + بقر"
+   },
+   "unknown": {
+    "en": "Not reported",
+    "ar": "غير مذكور"
+   }
+  },
+  "pack": {
+   "open": {
+    "en": "Open",
+    "ar": "سائب"
+   },
+   "bagged": {
+    "en": "Bagged",
+    "ar": "معبّأ"
+   }
+  },
+  "flow": {
+   "good": {
+    "en": "Good",
+    "ar": "جيدة"
+   },
+   "fair": {
+    "en": "Fair",
+    "ar": "مقبولة"
+   },
+   "poor": {
+    "en": "Poor",
+    "ar": "ضعيفة"
+   }
+  },
+  "particle": {
+   "fine": {
+    "en": "Fine",
+    "ar": "ناعم"
+   },
+   "grainy": {
+    "en": "Grainy",
+    "ar": "حُبيبي"
+   },
+   "gritty": {
+    "en": "Gritty",
+    "ar": "خشن"
+   }
+  },
+  "colour": {
+   "cream": {
+    "en": "Cream",
+    "ar": "كريمي"
+   },
+   "off_white": {
+    "en": "Off-white",
+    "ar": "أبيض مائل"
+   },
+   "white": {
+    "en": "White",
+    "ar": "أبيض"
+   },
+   "magnolia": {
+    "en": "Magnolia",
+    "ar": "عاجي"
+   },
+   "golden": {
+    "en": "Golden",
+    "ar": "ذهبي"
+   }
+  },
+  "kind": {
+   "practice": {
+    "en": "Practice",
+    "ar": "ممارسة"
+   },
+   "variation": {
+    "en": "Regional variation",
+    "ar": "تباين إقليمي"
+   },
+   "knowledge": {
+    "en": "Traditional knowledge",
+    "ar": "معرفة تقليدية"
+   },
+   "finding": {
+    "en": "Measured finding",
+    "ar": "نتيجة مقيسة"
+   }
+  },
+  "basis": {
+   "dmb": {
+    "en": "dry-matter basis",
+    "ar": "على أساس المادة الجافة"
+   },
+   "asis": {
+    "en": "as sold",
+    "ar": "كما يُباع"
+   }
+  },
+  "status": {
+   "partial": {
+    "en": "Partly available",
+    "ar": "متوفّر جزئياً"
+   },
+   "draft": {
+    "en": "Draft",
+    "ar": "مسودّة"
+   },
+   "planned": {
+    "en": "To be collected",
+    "ar": "قيد الجمع"
+   }
+  }
+ },
+ "library": {
+  "papers": [
+   {
+    "title": "Blandino2003",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 6,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Haccp Kishk Fns 2016111514084237 (1)",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 27,
+    "approved": 0,
+    "curated_source": "abdelrazik2016"
+   },
+   {
+    "title": "Improvementofthenutritionalvalueofacerealfermented",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 371,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk 13A5A0E63028F3Fd68A238Df8F17B677",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 386,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Ali2016",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 141,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Avmj Volume 60 Issue 140 Pages 176-182",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 2,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Baladigoatmilk Tabet2016",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 29,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Cost The Lebanese Kishk A Traditional Dairy",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 0,
+    "approved": 0,
+    "curated_source": "chedid2018"
+   },
+   {
+    "title": "Kishk Damir1992",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 47,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Functionalprobioticquinoacamelmilkkishk",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 1,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Gadallah 20191-S2.0-S1658077X16302272-Main",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 64,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Hafez1984",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 25,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Improvement-Of-The-Nutritional-Value-Of-Cere",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 207,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Lait 79 1999 3 27",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 165,
+    "approved": 0,
+    "curated_source": "tamime1999"
+   },
+   {
+    "title": "Kishk Lait 79 1999 3 28",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 3,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Lait 79 1999 4 36",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 135,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Lait 79 1999 4 37",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 20,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Mohamed Eid Abd Allha Shenana A Mathmatical",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 34,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Morcos1973 Fermented Foods In Common Use In",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 10,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Muir1995",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 0,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Salameh2016",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 16,
+    "approved": 0,
+    "curated_source": "salameh2016"
+   },
+   {
+    "title": "Kishk Sensory Muir2000",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 313,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Smell Physicochemical-Properties-Of-Syrian-D",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 43,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Toufeili1998",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 95,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishkgadallah2017",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 64,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Nassar 2016 Improvement-Of-The-Nutritional-Value-O",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 207,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Odland1972",
+    "trust_tier": 1,
+    "text_quality": "good",
+    "measurements": 0,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Bulgur10.1002@Cche.10347",
+    "trust_tier": 2,
+    "text_quality": "good",
+    "measurements": 50,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Journal Of Food Science - 2007 - Da Conceicao Neta",
+    "trust_tier": 2,
+    "text_quality": "good",
+    "measurements": 23,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk 2 Ijair 1744 Final1",
+    "trust_tier": 2,
+    "text_quality": "good",
+    "measurements": 1,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Pressed Cfw-52-5-0249",
+    "trust_tier": 2,
+    "text_quality": "good",
+    "measurements": 112,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "A173 En Kjeldahl Nitrogen Protein",
+    "trust_tier": 3,
+    "text_quality": "good",
+    "measurements": 4,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Bulgur Kishk Narwal2020",
+    "trust_tier": 3,
+    "text_quality": "good",
+    "measurements": 75,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Shanklish Fermentation-08-00743-V2",
+    "trust_tier": 3,
+    "text_quality": "good",
+    "measurements": 9,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Lebanon Effect Of Modified Manufacturing Pro",
+    "trust_tier": 4,
+    "text_quality": "good",
+    "measurements": 40,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Kishk Taste Innovation In Small Ruminants’ Dairy P",
+    "trust_tier": 4,
+    "text_quality": "good",
+    "measurements": 0,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Tarhana A Functional Food A Traditionaltarhana Fer",
+    "trust_tier": 6,
+    "text_quality": "good",
+    "measurements": 12,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Tarhana Chemical And Sensory Properties Of New Glu",
+    "trust_tier": 6,
+    "text_quality": "good",
+    "measurements": 0,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Tarhana Ebscohost 140497573 Kahramanmaraş-E...",
+    "trust_tier": 6,
+    "text_quality": "good",
+    "measurements": 0,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Tarhana Effect Of Wheat Germ Bran Addition On The",
+    "trust_tier": 6,
+    "text_quality": "good",
+    "measurements": 228,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Tarhana Fermentasyonunda Kimyasal Ve Mikrobiyoloji",
+    "trust_tier": 6,
+    "text_quality": "good",
+    "measurements": 0,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Tarhana Innovation Utilization Of Citrus Albedo In",
+    "trust_tier": 6,
+    "text_quality": "good",
+    "measurements": 0,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Tarhana Ozdemir2007",
+    "trust_tier": 6,
+    "text_quality": "good",
+    "measurements": 36,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Tarhana Traditional Food Cayot2007",
+    "trust_tier": 6,
+    "text_quality": "good",
+    "measurements": 0,
+    "approved": 0,
+    "curated_source": null
+   },
+   {
+    "title": "Tarhanamakale",
+    "trust_tier": 6,
+    "text_quality": "good",
+    "measurements": 1,
+    "approved": 0,
+    "curated_source": null
+   }
+  ],
+  "totals": {
+   "papers": 45,
+   "measurements": 3002,
+   "approved": 0,
+   "process_steps": 158
+  }
+ }
+}
